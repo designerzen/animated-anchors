@@ -38,16 +38,8 @@ a.blur{}
 a.blur:hover{filter:blur(5px);-webkit-filter:blur(5px);-moz-filter:blur(5px);-o-filter:blur(5px);-ms-filter:blur(5px);text-shadow:0 0 1px rgba(255,0,0,0.9);}
 a.glow{color:#ff0000;}
 a.glow:hover{color:transparent;text-shadow:0 0 1px rgba(0,0,0,0.9);filter:dropshadow(color=#000000,offx=1,offy=1);}
-@-webkit-keyframes tada{0%{-webkit-transform:scale(1);} 10%,20%{-webkit-transform:scale(0.9) rotate(-3deg);} 30%,50%,70%,90%{-webkit-transform:scale(1.1) rotate(3deg);} 40%,60%,80%{-webkit-transform:scale(1.1) rotate(-3deg);} 100%{-webkit-transform:scale(1) rotate(0);}}
-@-moz-keyframes tada{0%{-moz-transform:scale(1);} 10%,20%{-moz-transform:scale(0.9) rotate(-3deg);} 30%,50%,70%,90%{-moz-transform:scale(1.1) rotate(3deg);} 40%,60%,80%{-moz-transform:scale(1.1) rotate(-3deg);} 100%{-moz-transform:scale(1) rotate(0);}}
-@-o-keyframes tada{0%{-o-transform:scale(1);} 10%,20%{-o-transform:scale(0.9) rotate(-3deg);} 30%,50%,70%,90%{-o-transform:scale(1.1) rotate(3deg);} 40%,60%,80%{-o-transform:scale(1.1) rotate(-3deg);} 100%{-o-transform:scale(1) rotate(0);}}
-@keyframes tada{0%{transform:scale(1);} 10%,20%{transform:scale(0.9) rotate(-3deg);} 30%,50%,70%,90%{transform:scale(1.1) rotate(3deg);} 40%,60%,80%{transform:scale(1.1) rotate(-3deg);} 100%{transform:scale(1) rotate(0);}}
 a.tada{border-right:50px solid transparent;padding-right:50px;}
 a.tada:hover{-webkit-animation-name:tada;-moz-animation-name:tada;-o-animation-name:tada;animation-name:tada;padding-right:5px;border-right:50px solid #ff0000;}
-@-webkit-keyframes flash{0%,50%,100%{opacity:1;} 25%,75%{opacity:0;}}
-@-moz-keyframes flash{0%,50%,100%{opacity:1;} 25%,75%{opacity:0;}}
-@-o-keyframes flash{0%,50%,100%{opacity:1;} 25%,75%{opacity:0;}}
-@keyframes flash{0%,50%,100%{opacity:1;} 25%,75%{opacity:0;}}
 a.emboss{padding-left:3px;padding-right:3px;}
 a.emboss:hover{-webkit-animation-name:flash;-moz-animation-name:flash;-o-animation-name:flash;animation-name:flash;text-shadow:1px 1px 3px #ff0000;filter:dropshadow(color=#ff0000,offx=1,offy=1);background-color:#ffdddd;color:#fff;}
 a.flicker{position:relative;}

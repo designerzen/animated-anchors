@@ -220,37 +220,7 @@ a.glow:hover{
 	text-shadow: 0 0 1px rgba(0,0,0,0.9);
 	 filter: dropshadow(color=#000000, offx=1, offy=1);
 }
-@-webkit-keyframes tada {
-	0% {-webkit-transform: scale(1);}	
-	10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
-	30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
-	40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
-	100% {-webkit-transform: scale(1) rotate(0);}
-}
 
-@-moz-keyframes tada {
-	0% {-moz-transform: scale(1);}	
-	10%, 20% {-moz-transform: scale(0.9) rotate(-3deg);}
-	30%, 50%, 70%, 90% {-moz-transform: scale(1.1) rotate(3deg);}
-	40%, 60%, 80% {-moz-transform: scale(1.1) rotate(-3deg);}
-	100% {-moz-transform: scale(1) rotate(0);}
-}
-
-@-o-keyframes tada {
-	0% {-o-transform: scale(1);}	
-	10%, 20% {-o-transform: scale(0.9) rotate(-3deg);}
-	30%, 50%, 70%, 90% {-o-transform: scale(1.1) rotate(3deg);}
-	40%, 60%, 80% {-o-transform: scale(1.1) rotate(-3deg);}
-	100% {-o-transform: scale(1) rotate(0);}
-}
-
-@keyframes tada {
-	0% {transform: scale(1);}	
-	10%, 20% {transform: scale(0.9) rotate(-3deg);}
-	30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
-	40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
-	100% {transform: scale(1) rotate(0);}
-}
 a.tada {
 	border-right:50px solid transparent;
 	padding-right:50px; 
@@ -264,25 +234,6 @@ a.tada:hover {
 	border-right:50px solid #ff0000;
 }
 
-@-webkit-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
-	25%, 75% {opacity: 0;}
-}
-
-@-moz-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
-	25%, 75% {opacity: 0;}
-}
-
-@-o-keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
-	25%, 75% {opacity: 0;}
-}
-
-@keyframes flash {
-	0%, 50%, 100% {opacity: 1;}	
-	25%, 75% {opacity: 0;}
-}
 
 
 a.emboss{
